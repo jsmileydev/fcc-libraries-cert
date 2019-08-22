@@ -1,4 +1,4 @@
-A text-editor displaying live conversion of Markedown text format into HTML using the [Marked.js library](https://marked.js.org/). 
+A text-editor displaying live conversion of Markdown text format into HTML using the [Marked.js library](https://marked.js.org/). Instructions and examples are included in the text editor and previewer. 
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
