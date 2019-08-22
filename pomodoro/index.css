@@ -1,0 +1,95 @@
+
+	@import url("https://fonts.googleapis.com/css?family=Dosis");
+
+	* {
+		font-family: Dosis;
+		font-weight: bold;
+		text-align: center;
+		color: #009999;
+		text-shadow: 0 0 10px #00D5D5;
+	}
+
+	body {
+		background-color: #000;
+	}
+
+	header {
+		font-size: 1.75em;
+	}
+
+	h1 {
+		margin-bottom: 25px;
+	}
+
+	#timer {
+		margin: 10px auto;
+		padding-bottom: 10px;
+		width: 300px;
+	}
+
+	#time-left {
+		margin: 5px 0 10px 0;
+		font-size: 4em;
+	}
+
+	#timer i {
+		font-size: 2.25em;
+	}
+
+	#timer-label {
+		margin: 0;
+	}
+
+	#time-change {
+		margin: 25px 0;
+	}
+
+	section {
+		display: inline-block;
+		width: 200px;
+	}
+
+	@media (max-width: 650px) {
+		#time-change {
+			margin: 25px auto;
+		}
+
+		section {
+			display: block;
+			margin: 0 auto;
+		}
+
+		.label {
+			margin: 0 auto;
+		}
+	}
+
+	section p {
+		display: inline;
+	}
+
+	#timer-label,
+	.length-change,
+	.label {
+		font-size: 2em;
+	}
+
+	i {
+		font-size: 3em;
+		background: #000;
+		margin: 0 10px;
+	}
+
+	button {
+		display: inline;
+		padding: 0;
+		margin: 0 10px;
+		border: none;
+		cursor: pointer;
+		background: #000;
+	}
+
+	footer {
+		text-align: right;
+		margin-top: 25px;
+	}
