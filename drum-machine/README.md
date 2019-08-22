@@ -1,3 +1,6 @@
+FreeCodeCamp project made with React. Click on icons or press keys Q-E, A-D, and Z-C to hear sound and display name. Power button included. (sounds not currently representative of the images)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
