@@ -1,0 +1,106 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono');
+
+* {
+  font-family: 'Share Tech Mono', monospace;
+  background-color: #000;
+}
+
+body {
+  margin-top: 30px;
+}
+
+.calculator {
+  margin: 0 auto;
+  display: -ms-grid;
+  display: grid;
+  background-color: #737373;
+  -ms-grid-rows: 1.5fr 5px ;
+  -ms-grid-columns: 1fr 5px 1fr 5px 1fr 5px 1fr;
+      grid-template: 1.5fr repeat(1fr) / repeat(4, 1fr);
+  grid-gap: 5px;
+  border-radius: 0 0 12px 12px;
+  border-top: 3px solid #302d39;
+  -webkit-box-shadow: 4px 4px 0 2px #595959;
+          box-shadow: 4px 4px 0 2px #595959;
+  width: 309px;
+  overflow: hidden;
+  padding: 3px;
+}
+
+#numpad {
+  padding: 12.5px;
+}
+
+#screen {
+  display: block;
+  width: 305px;
+  overflow: hidden;
+  background-color: #302d39;
+  border: 11.5px solid #737373;
+  border-radius: 12px 12px 0 0;
+  -webkit-box-shadow: 4px 4px 0 2px #595959, inset 3px 3px 4px #bfbfbf;
+  box-shadow: 4px 4px 0 2px #595959, inset 3px 3px 4px #bfbfbf;
+  text-align: right;
+  font-weight: bold;
+}
+  .output {
+  background-color: #302d39;
+  color: #fff;
+  height: 46px;
+  margin: 0 20px;
+  text-align: right;
+  }
+  #formula {
+  font-size: 18px;
+  margin-top: 10px;
+  }
+  #display {
+  font-size: 34px;
+  margin-bottom: 10px;
+  }
+
+button {
+  width: 100%;
+  font-size: 24px;
+  padding: 10px 25px;
+  border: 2px solid #737373;
+  -webkit-box-shadow: 2px 2px 0 1px #4d4d4d;
+          box-shadow: 2px 2px 0 1px #4d4d4d;
+  border-radius: 7px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:active {
+  transform: translateY(2px);
+}
+
+.number {
+  background-color: #595959;
+  color: #fff;
+  border-radius: 7px;
+}
+
+.operator {
+  background-color: #3b3f45;
+  color: #fff;
+}
+
+#equals {
+  -ms-grid-column: 4;
+  -ms-grid-column-span: 1;
+  grid-column: 4 / 5;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 5;
+  grid-row: 2 / 7;
+  margin-bottom: 5px;
+  border: 2px solid #c34b22;
+  background-color: #d45125;
+  -webkit-box-shadow: 2px 2px 0 1px #4d4d4d;
+          box-shadow: 2px 2px 0 1px #4d4d4d;
+  color: #fff;
+}
